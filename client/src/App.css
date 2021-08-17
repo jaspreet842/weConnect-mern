@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    --header-color: #3f0f40;
+    font-family: 'Roboto', cursive !important;
+}
+
+.appBody {
+    display: flex;
+    height: 100vh;
+}
+
+.welcomeTag {
+    margin: 9rem auto;
+    text-align: center;
+}
+
+.welcomeTag>img {
+    width: 50%;
+    margin-bottom: 2rem;
+    border-radius: 20em;
+}
